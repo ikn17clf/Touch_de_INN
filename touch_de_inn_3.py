@@ -4,7 +4,7 @@ import os
 import csv
     
 if __name__ == '__main__':
-    #while (True):
+    while (True):
         clf = nfc.ContactlessFrontend('usb')
         flag = 0
         count = 0
