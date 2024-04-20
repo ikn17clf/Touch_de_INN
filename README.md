@@ -10,4 +10,8 @@
 3. touch_de_inn_admin_app.py は，ユーザとICカード情報をGoogleスプレッドシートに登録するGUIアプリ<br>
    NFCタグを接続したWindowsマシンで使うことを想定している
    
-NB: NFCタグは最新のものだとカードの情報が読み取れないので，古いバージョンのものを使う必要がある．
+NB: NFCタグは最新のものだとカードの情報が読み取れないので，古いバージョンのものを使う必要がある．<br>
+    GoogleスプレッドシートをPythonで読み込む方法は以下を参照<br>
+    https://programmer-life.work/python/read-spreadsheet-data
+    <br>GoogleスプレッドシートをPythonで読み込む前に，認証用のjsonファイルを同じディレクトリに置いておく必要がある．その方法は以下を参照<br>
+    https://programmer-life.work/python/python-to-google-spreadsheet
