@@ -30,11 +30,9 @@ def member_update():
 if __name__ == '__main__':
     start = time.time()
     member_update()
-    """
     while True:
         time.sleep(1)
         if time.time() - start > update_sec:
             start = time.time()
             member_update()
-    """
         
