@@ -8,6 +8,6 @@
    本当は解錠も実装したかったけど，当時は物理的な障壁があり断念
    SwitchBot ロック( https://www.switchbot.jp/products/switchbot-lock )とIFTTTを使えば実装できるかも
 3. touch_de_inn_admin_app.py は，ユーザとICカード情報をGoogleスプレッドシートに登録するGUIアプリ
-   NFCタグを読み取ったWindowsマシンで使うことを想定している
+   NFCタグを接続したWindowsマシンで使うことを想定している
    
 NB: NFCタグは最新のものだとカードの情報が読み取れないので，古いバージョンのものを使う必要がある．
