@@ -6,7 +6,7 @@
    memberlist_download.py は，データベースたるGoogleスプレッドシートを一定時間ごとにダウンロードしてcsvファイルとしてラズパイの中に保存するプログラム
    touch_de_inn_3.py は，NFCタグで読み取った情報がcsvファイル上に存在するかどうかを判定するプログラム
    本当は解錠も実装したかったけど，当時は物理的な障壁があり断念
-   SwitchBot ロック(https://www.switchbot.jp/products/switchbot-lock)とIFTTTを使えば実装できるかも
+   SwitchBot ロック( https://www.switchbot.jp/products/switchbot-lock )とIFTTTを使えば実装できるかも
 3. touch_de_inn_admin_app.py は，ユーザとICカード情報をGoogleスプレッドシートに登録するGUIアプリ
    NFCタグを読み取ったWindowsマシンで使うことを想定している
    
